@@ -1,0 +1,37 @@
+{
+
+  "manifest_version": 2,
+  "name": "Unhide",
+  "version": "1.0",
+
+	"description": "Shows all hidden elements.",
+
+	"icons": {
+		"48": "icons/icon48.png",
+		"96": "icons/icon96.png"
+	},
+
+	"permissions": [
+    "activeTab"
+  ],
+
+	"browser_action": {
+		"browser_style": true,
+		"default_icon": {
+			"16": "icons/icon16.png",
+			"32": "icons/icon32.png"
+		},
+		"default_title": "Unhide",
+		"default_popup": "menu.html",
+		"theme_icons": [{
+			"light": "icons/icon16.png",
+			"dark": "icons/icon16.png",
+			"size": 16
+		}, {
+			"light": "icons/icon16.png",
+			"dark": "icons/icon32.png",
+			"size": 32
+		}]
+	}
+
+}
